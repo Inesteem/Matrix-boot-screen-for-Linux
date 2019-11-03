@@ -18,3 +18,19 @@ Now set the matrix theme as the default by selecting the correct entry (named ..
 Write settings to boot image:
 
 > sudo update-initramfs -u -k all 
+
+
+Test installed Boot screen:
+
+> chmod +x ./test-boot-screen.sh
+> sudo apt-get install plymouth-x11 
+> sudo ./test-boot-screen.sh
+
+There are two screenshots, generated with this script.
+The bar on the top will not appear at boot time.
+
+
+Tested and used on Ubuntu 16.04 / 18.04 
+
+(Use on your own risk. Works for me, but you know, if your PC is on fire after executing this commands... well, bad luck I guess.)
+
