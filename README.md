@@ -23,7 +23,9 @@ Write settings to boot image:
 Test installed Boot screen:
 
 > chmod +x ./test-boot-screen.sh
+
 > sudo apt-get install plymouth-x11 
+
 > sudo ./test-boot-screen.sh
 
 There are two screenshots, generated with this script.
